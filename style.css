@@ -1,12 +1,18 @@
 
 
 body {
-    background-color:mediumpurple
+    background-color:rgb(176, 191, 195)
     
   }
-  
+  h1#title{
+    text-align: center;
+
+  }
+  P#description{
+    text-align: center;
+  }
   #survey-form {
-    background-color:rgb(51, 51, 151);
+    background-color:rgb(67, 147, 184);
     width: 80%;
     padding-top: 40px;
     margin: 50px auto;
@@ -28,7 +34,7 @@ body {
   form > label {
     justify-self:end; 
     text-align: right;
-  } [target] {align-self: start; margin-top: 10px;}
+  } 
   
   div > label {margin-top: 10px;}
   
@@ -76,7 +82,7 @@ body {
     justify-self: center;
     width: 120px;
     height: 70px;
-    background-color: skyblue;
+    background-color: rgb(123, 126, 128);
     margin-top: 20px;
       font-size: 25px;
     color: white;
