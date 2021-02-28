@@ -1,5 +1,6 @@
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
 <title>  qality of education servay form </title>
     </head>
     
@@ -19,7 +20,32 @@
             <input id="email"  type="email"  placeholder='enter your email ' required>
             <label id="number-label" for="number" >Number * :</label>
             <input id="number" type="number" placeholder="enter your number :"  min="10" max="14" required>
-
+            <label for='dropdown'>In which part do you want to improve:</label>
+            <select id='dropdown'>
+              <option value='technology'> technology</option>
+              <option value='Education'>Education</option>
+              <option value='Economy'>Economy</option>
+              <option value='law'>Law</option>
+            </select>
+            <label target>HOW LONG YOU WOULD LIKE TO Improve it ? : </label>
+  <div id='radio'>
+    <label for='1'><input type='radio' name='period' id ='1' value='6 month'>6 Month</label>
+    <label for='2'><input type='radio' name='period'  id ='2' value='12 month'>12 Month</label>
+    <label for='3'><input type='radio' name='period'  id ='3' value='18 month'>18 Month</label>
+  </div>
+  <label target>What Type Of Research Do You Want Have:</label>
+  <div id='check'>
+    <label for='a'><input type='checkbox' name='lt' id ='a' value='Self-Research'>Self-Research</label>
+     <label for='b'><input type='checkbox' name='lt' id ='b' value='Research With Team'>Research With Team</label>
+     <label for='c'><input type='checkbox' name='lt' id ='c' value='Research with Foreign team'>Research with Foreign Team</label>
+    
+  </div>
+  
+  <label target>TEL US SOMETHIG ELSE:</label>
+  <textarea placeholder='enter any comments or suggestion here'></textarea>
+  
+  <input type='submit' id='submit'>
+ 
         </from>
 
     </main>
